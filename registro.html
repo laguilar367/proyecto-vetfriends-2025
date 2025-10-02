@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" type="image/x-icon" href="/img/VetFriends.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro | Inicio Sesión</title>
+    <link rel="stylesheet" href="/registro/css/registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop id="videoFondo">
+        <source src="/registro/video/fondo.mp4" type="video/mp4">
+    </video>
+    <a href="index.html" class="login-link">Volver a Nuestra Clínica</a>
+    
+    <div class="container-form register">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido Amigo Peludo!</h2>
+                <p>En VetFriends, valoramos a nuestros miembros existentes. Inicia sesión para acceder a tus registros médicos, programar citas de seguimiento, recibir actualizaciones sobre la salud de tu mascota y mantenerte conectado con nuestro equipo veterinario. ¡Gracias por confiar en nosotros para el cuidado de tus amigos peludos!</p>
+                <input type="button" value="Iniciar Sesión" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una Cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o usa tu email para registrarte</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Nombre Completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Correo Electrónico">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>   
+        </div>
+    </div>
+
+    <div class="container-form login hide">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Únete a la Familia VetFriends!</h2>
+                <p>En VetFriends, valoramos a cada miembro peludo de tu familia. Regístrate para acceder a nuestros servicios personalizados, programar citas, recibir recordatorios y mantenerte conectado con nuestros veterinarios expertos. ¡Bienvenido a VetFriends!</p>
+                <input type="button" value="Registrarse" id="sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Sesión</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o Iniciar Sesión con una cuenta</p>
+                <form class="form">                    
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Correo Electrónico">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Iniciar Sesión">
+                </form>
+            </div>    
+        </div>
+    </div>
+    <!-- JS Main -->
+    <script src="/registro/js/registro.js"></script>    
+</body>
+</html>
